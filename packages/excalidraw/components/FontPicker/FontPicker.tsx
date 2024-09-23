@@ -24,11 +24,11 @@ export const DEFAULT_FONTS = [
     testId: "font-family-handrawn",
   },
   {
-    value: FONT_FAMILY.Nunito,
+    value: FONT_FAMILY.pfsg,
     icon: FontFamilyNormalIcon,
     text: t("labels.normal"),
-    testId: "font-family-normal",
-  },
+    testId: "font-family-pfsg",
+  },  
   {
     value: FONT_FAMILY["Comic Shanns"],
     icon: FontFamilyCodeIcon,
