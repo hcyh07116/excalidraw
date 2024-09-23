@@ -33,3 +33,11 @@
   style: normal;
   display: swap;
 }
+
+@font-face {
+  font-family: "pfsg";
+  src: url(./pfsg.ttf) format("truetype");
+  style: normal;
+  display: swap;
+}
+
