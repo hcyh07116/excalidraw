@@ -23,6 +23,7 @@ import Excalifont from "./assets/Excalifont-Regular.woff2";
 import Cascadia from "./assets/CascadiaCode-Regular.woff2";
 import ComicShanns from "./assets/ComicShanns-Regular.woff2";
 import LiberationSans from "./assets/LiberationSans-Regular.woff2";
+import Yutong from "./assets/pfsg.ttf";
 
 import LilitaLatin from "https://fonts.gstatic.com/s/lilitaone/v15/i7dPIFZ9Zz-WBtRtedDbYEF8RXi4EwQ.woff2";
 import LilitaLatinExt from "https://fonts.gstatic.com/s/lilitaone/v15/i7dPIFZ9Zz-WBtRtedDbYE98RXi4EwSsbg.woff2";
@@ -217,6 +218,10 @@ export class Fonts {
     _register("Excalifont", FONT_METADATA[FONT_FAMILY.Excalifont], {
       uri: Excalifont,
     });
+    
+    _register("pfsg", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: pfsg,
+    });    
 
     // keeping for backwards compatibility reasons, uses system font (Helvetica on MacOS, Arial on Win)
     _register("Helvetica", FONT_METADATA[FONT_FAMILY.Helvetica], {
